@@ -9,3 +9,5 @@ if (F.id === 0) {
         //execution of a service, F.id = 0 is a cluster with 0 id and if it dies, new process will restart with id = 0
   }
 ```
+## Use file/redis session
+In memory session will fail every single time, so use file/redis session with it.
